@@ -11,6 +11,9 @@ To get the approximated connected component value, simply provide necessary para
 ## Approximation Bounds
 The number of connected component is within `εn` with probability `1 - δ`.
 
+## Time Complexity
+O((d / ε<sup>2</sup>) * log(d / ε))
+
 ## Idea
 Let n<sub>u</sub> be the number of nodes in the connected component where the node u is located.<br>
 The number of connected component = sum(1 / n<sub>u</sub>) for all node u.<br><br>
