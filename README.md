@@ -5,8 +5,7 @@ Here, I provide the implementation for a randomized algorithm approximating the 
 This algorithm is based on Lecture 5: Bounded Degree Graph Algorithms, CSCI 1951-W Sublinear Algorithms for Big Data
 
 ## How to use it?
-Please keep the code where I highlighted in comments, while other codes can be modified to your own needs.<br>
-To get the approximated connected component value, simply provide necessary parameters, and call the function `approxCC`.
+Check `approxCC.cpp` for the code, and `sample.cpp` for a sample implementation.
 
 ## Approximation Bounds
 The number of connected component is within `εn` with probability `1 - δ`.
