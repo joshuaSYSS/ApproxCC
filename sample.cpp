@@ -7,9 +7,7 @@ void readgraph(int m, vector<vector<int>>& graph) {
         graph[v].push_back(u);
     }
 }
-/*
-Please keep the code below.
-*/
+
 vector<int> n_u;
 void bfs(int i, int n, vector<vector<int>>& graph, int end) {
     int exploredVertices = 0;
@@ -53,9 +51,6 @@ double approxCC(int n, int m, vector<vector<int>>& graph, double EPS, double del
     res *= (double)n / (double)k;
     return res;
 }
-/*
-Please keep the code above.
-*/
 
 int main(void){
   int n; //Number of nodes
